@@ -1,0 +1,41 @@
+td {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+table{
+    border: 1px;
+    border-color: rgb(191, 212, 218);
+}
+.Menu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notClicked{
+    text-indent: -9999px;
+    background-color: rgb(168, 196, 193);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.clicked{
+    text-indent: revert;
+    background-color: rgb(238, 238, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+#victory{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Mode{
+    color:blue;
+    margin-inline: 30px;
+}
+.Mode:hover{
+    color:darkblue;
+}
+#currentTable{
+    text-align: center;
+}
